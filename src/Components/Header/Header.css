@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  z-index: 8; /* Ensure it's below the homepage */
+}
+
+.logo-image {
+  margin-left: 5%;
+  margin: 5vh; 
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: auto;
+}
+
+.MuiSvgIcon-root {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 3vh;  
+  margin-right: 3%;
+  margin: 2vh; 
+  font-size:2rem;
+}
+
+.MuiSvgIcon-root:hover {
+  /* background-color: rgb(195, 193, 193); */
+  opacity: 10;
+}
+
+h1{
+  color: #e42121;
+}
+
+h3{
+  color: #e00f0f;
+} 

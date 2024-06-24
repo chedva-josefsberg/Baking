@@ -1,0 +1,104 @@
+/* HomePage.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.videoWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  z-index: 1;
+}
+
+.visible {
+  opacity: 1;
+  z-index: 2;
+}
+
+.homepage {
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.homepage h2 {
+  font-size: 400%;
+  margin: 0;
+  text-align: center;
+  font-family: Geneva, Tahoma, sans-serif;
+  line-height: 0.9;
+  text-transform: uppercase;
+  margin-top: 5%;
+  display: inline-block;
+  max-width: 45%;
+  word-wrap: break-word;
+  letter-spacing: 2px;
+}
+
+.homepage p {
+  padding-top: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 60%;
+  word-wrap: break-word;
+  font-size: 125%;
+  color: inherit;
+  margin: 20px auto;
+  line-height: 1;
+  display: inline-block;
+}
+
+.buttons {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #ea3737;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4c4c;
+}
