@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .main-footer {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 5; /* Ensure footer is above other elements */
+    position: relative; /* Ensure z-index is applied */
+  }
+  
+  .main-footer .MuiGrid-root {
+    max-width: 100%;
+  }
+  
+
+  

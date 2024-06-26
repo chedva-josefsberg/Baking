@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed; /* Ensures it's always on top */
+  top: 0; /* Stick to the top of the viewport */
   width: 100%;
-  z-index: 8; /* Ensure it's below the homepage */
+  z-index: 1000; /* Ensure it's above other elements */
+  background-color: transparent; /* Make background completely transparent */
+  /* padding: 1vh 2vw; Adjust padding as needed */
 }
 
 .logo-image {
@@ -23,17 +26,17 @@
   margin-right: 3%;
   margin: 2vh; 
   font-size:2rem;
+  text-emphasis-color: pink;
 }
 
 .MuiSvgIcon-root:hover {
-  /* background-color: rgb(195, 193, 193); */
-  opacity: 10;
+  opacity: 0.8;
 }
 
-h1{
+/* h1 {
   color: #e42121;
 }
 
-h3{
+h3 {
   color: #e00f0f;
-} 
+} */
